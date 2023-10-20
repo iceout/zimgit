@@ -157,7 +157,7 @@ alias ${gprefix}Rs='git remote show'
 alias ${gprefix}RS='git remote set-url'
 
 # Stash (s)
-alias ${gprefix}s='git stash'
+alias ${gprefix}sta='git stash'
 alias ${gprefix}sa='git stash apply'
 alias ${gprefix}sx='git stash drop'
 alias ${gprefix}sX='git-stash-clear-interactive'
