@@ -104,7 +104,7 @@ alias ${gprefix}ix='git rm --cached -r'
 alias ${gprefix}iX='git rm --cached -rf'
 
 # Log (l)
-alias ${gprefix}l='git log --topo-order --pretty=format:"${_git_log_fuller_format}"'
+alias ${gprefix}l='git log --topo-order --stat --pretty=format:"${_git_log_fuller_format}"'
 alias ${gprefix}ls='git log --topo-order --stat --pretty=format:"${_git_log_fuller_format}"'
 alias ${gprefix}ld='git log --topo-order --stat --patch --pretty=format:"${_git_log_fuller_format}"'
 alias ${gprefix}lf='git log --topo-order --stat --patch --follow --pretty=format:"${_git_log_fuller_format}"'
