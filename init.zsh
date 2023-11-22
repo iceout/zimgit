@@ -146,7 +146,7 @@ alias ${gprefix}rs='git rebase --skip'
 alias ${gprefix}rS='git rebase --exec "git commit --amend --no-edit --no-verify -S"'
 
 # Remote (R)
-alias ${gprefix}R='git remote'
+alias ${gprefix}R='git remote --verbose'
 alias ${gprefix}Rv='git remote --verbose'
 alias ${gprefix}Ra='git remote add'
 alias ${gprefix}Rx='git remote rm'
