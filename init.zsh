@@ -90,7 +90,7 @@ alias ${gprefix}gv='git grep --invert-match'
 alias ${gprefix}gw='git grep --word-regexp'
 
 # Help (h)
-alias ${gprefix}h='git help'
+alias ${gprefix}hh='git help'
 
 # Index (i)
 alias ${gprefix}ia='git add'
